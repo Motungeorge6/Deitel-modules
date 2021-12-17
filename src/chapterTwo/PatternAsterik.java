@@ -1,2 +1,18 @@
-package chapterTwo;public class PatternAsterik {
+package chapterTwo;
+
+public class PatternAsterik {
+
+    public static void main(String[] args){
+
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+
+
+    }
 }
