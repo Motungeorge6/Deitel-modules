@@ -38,4 +38,13 @@ public class Television {
         int channel = 0;
         if (isOn && channel > 2) channel++;
     }
-}
+
+    public void decreaseChannel() {
+        int channel = 0;
+        if (isOn && channel < 2) channel--;
+    }
+
+
+
+    }
+

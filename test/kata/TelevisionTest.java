@@ -124,7 +124,7 @@ public class TelevisionTest {
     }
 
     @Test
-    public void televisionCanIncreaseChannel() {
+    public void televisionCanIncreaseChannelTest() {
         Television sony = new Television("sony");
         assertFalse(sony.isOn());
 
@@ -133,11 +133,25 @@ public class TelevisionTest {
             sony.IncreaseChannel();
         }
     }
+
     @Test
-    public void televisionCanDecreaseChannel(){
+    public void televisionCanDecreaseChannelTest() {
         Television sony = new Television("sony");
         assertFalse(sony.isOn());
 
+        sony.turnOn();
+        for (int i = 20; i > 2; i--) {
+            sony.decreaseChannel();
+        }
+
+        }
+        @Test
+    public void setChannelTest(int channel) {
+
+
+
+        }
+
     }
-}
+
 
