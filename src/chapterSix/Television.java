@@ -3,7 +3,7 @@ package chapterSix;
 public class Television {
 
 
-    private int IncreaseChannel;
+    private int Channel;
     private int volume;
     private  boolean isOn;
 
@@ -34,17 +34,19 @@ public class Television {
       if (isOn && volume > 0)  volume--;
     }
 
-    public void IncreaseChannel() {
-        int channel = 0;
-        if (isOn && channel > 2) channel++;
-    }
+    public void IncreaseChannel() {if(isOn && Channel < 10) Channel++; }
 
-    public void decreaseChannel() {
-        int channel = 0;
-        if (isOn && channel < 2) channel--;
-    }
+    public void decreaseChannel() {if (isOn && Channel > 1) Channel--;}
+
+public int getChannel(){return Channel; }
 
 
 
-    }
+
+
+        }
+
+
+
+
 

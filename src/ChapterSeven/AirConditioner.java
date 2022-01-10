@@ -21,6 +21,10 @@ public class AirConditioner {
     }
 
     public void increaseTemperature(){if(isOn && Temperature < 27) Temperature++;
+        else if (Temperature >= 27){Temperature = 27;}
+        else {
+            Temperature = 0;
+    }
     }
 
 

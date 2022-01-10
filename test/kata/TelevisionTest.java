@@ -19,7 +19,8 @@ public class TelevisionTest {
     public void televisionCanBeTurnOffTest() {
         Television sony = new Television("sony");
         assertFalse(sony.isOn());
-
+        sony.turnOn();
+        assertTrue(sony.isOn());
 
         sony.turnOff();
         assertFalse(sony.isOn());
@@ -33,9 +34,12 @@ public class TelevisionTest {
         sony.turnOn();
         assertTrue(sony.isOn());
 
-        sony.increaseVolume();
+        for (int i  = 1; i < 10; i++){
+            sony.increaseVolume();
+        }
+
         int increase = sony.getVolume();
-        assertEquals(1, increase);
+        assertEquals(9, increase);
     }
 
     @Test
@@ -62,9 +66,11 @@ public class TelevisionTest {
         assertFalse(sony.isOn());
 
         sony.turnOn();
+        assertTrue(sony.isOn());
         for (int i = 1; i < 9; i++) {
             sony.increaseVolume();
         }
+        assertEquals(8,sony.getVolume());
         sony.turnOff();
         sony.increaseVolume();
         assertEquals(8, sony.getVolume());
@@ -113,13 +119,10 @@ public class TelevisionTest {
             sony.increaseVolume();
         }
         assertEquals(100, sony.getVolume());
-        for (int i = 100; i > 1; i--) {
+        for (int i = 1; i <= 100; i++) {
             sony.decreaseVolume();
         }
-        assertEquals(1, sony.getVolume());
-        sony.turnOff();
-        sony.decreaseVolume();
-        assertEquals(1, sony.getVolume());
+        assertEquals(0, sony.getVolume());
 
     }
 
@@ -129,28 +132,31 @@ public class TelevisionTest {
         assertFalse(sony.isOn());
 
         sony.turnOn();
-        for (int i = 20; i < 2; i++) {
+        for (int  i= 10 ; i <10 ; i++) {
+            assertEquals(10, sony.getChannel());
             sony.IncreaseChannel();
+
         }
     }
 
     @Test
-    public void televisionCanDecreaseChannelTest() {
+     public void televisionCanDecreaseChannelTest() {
         Television sony = new Television("sony");
         assertFalse(sony.isOn());
+        sony.turnOn();
+        for (int i = 10; i < 10; i++) {
+            assertEquals(10, sony.getChannel());
+            sony.IncreaseChannel();
+        }
 
         sony.turnOn();
-        for (int i = 20; i > 2; i--) {
+            assertEquals(0,sony.getChannel());
             sony.decreaseChannel();
-        }
 
         }
-        @Test
-    public void setChannelTest(int channel) {
 
 
 
-        }
 
     }
 

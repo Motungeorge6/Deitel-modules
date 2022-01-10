@@ -64,24 +64,25 @@ public class AirConditionerTest {
         AirConditioner royal = new AirConditioner("royal");
         assertFalse(royal.isOn());
 
-        royal.turnOn();
+        royal.turnOff();
         for (int i = 1; i < 9; i++) {
             royal.increaseTemperature();
         }
-        royal.turnOff();
-        royal.increaseTemperature();
-        assertEquals(8, royal.getTemperature());
+
+
+        assertEquals(0, royal.getTemperature());
     }
     @Test
     public void iCantIncreaseTemperatureBeyond27Test(){
         AirConditioner royal = new AirConditioner("royal");
-                assertFalse(royal.isOn());
+
 
                 royal.turnOn();
-                for (int i = 1; i<=27; i++) {
+        assertTrue(royal.isOn());
+                for (int i = 0; i<=29; i++) {
                     royal.increaseTemperature();
                 }
-                royal.increaseTemperature();
+
                 assertEquals(27, royal.getTemperature());
     }
 
@@ -117,9 +118,7 @@ public class AirConditionerTest {
             royal.decreaseTemperature();
         }
         assertEquals(1,royal.getTemperature());
-        royal.turnOff();
-        royal.decreaseTemperature();
-        assertEquals(1,royal.getTemperature());
+
     }
 
 }
