@@ -7,7 +7,7 @@ public class OddLoop {
 
         while (number <= 100){
             number = number + 1;
-            System.out.print(number+" ");
+            System.out.println(number+" ");
 
 
 

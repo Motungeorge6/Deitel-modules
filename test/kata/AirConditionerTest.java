@@ -1,7 +1,6 @@
 package kata;
 
-import ChapterSeven.AirConditioner;
-import chapterSix.Television;
+import SweetXmas.AirConditioner;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

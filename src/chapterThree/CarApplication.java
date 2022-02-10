@@ -2,18 +2,16 @@ package chapterThree;
 
 public class CarApplication {
     public static void main(String[] args) {
-        Car toyota = new Car("Toyota", "2021", 14000);
-        Car benz  = new Car("Mercedes","2020",10000000);
+    Car carFord = new Car("Ford2010","2020",200000.00);
+    carFord.setPrice(0.05* carFord.getPrice());
+        System.out.println(carFord);
 
-        System.out.printf("%s%n Year: %s%n Price: %.2f%n ",toyota.getModel(),toyota.getYear(),toyota.getPrice());
-        System.out.printf("%s%n Year: %s%n Price: %.2f%n%n ",benz.getModel(),benz.getYear(),benz.getPrice());
-
-        System.out.println("After five percent discount............");
-        System.out.printf("%s%n Year: %s%n Price: %.2f%n ",toyota.getModel(),toyota.getYear(),toyota.getPrice()-(0.05 * toyota.getPrice()));
-
-        System.out.println("After seven percent discount............");
-        System.out.printf("%s%n Year: %s%n Price: %.2f%n ",benz.getModel(),benz.getYear(),benz.getPrice()-(0.07 * benz.getPrice()));
+        Car rangeRover = new Car("RangeRover","2021",130000.00);
+        rangeRover.setPrice(0.07 * rangeRover.getPrice());
+        System.out.println(rangeRover);
+        System.out.println("The year is "+rangeRover.getYear()+ " " + "The model is "+ rangeRover.getModel());
 
     }
+
 
 }

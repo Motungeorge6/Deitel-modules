@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estore/Estore.iml" filepath="$PROJECT_DIR$/Estore/Estore.iml" />
       <module fileurl="file://$PROJECT_DIR$/cohortNine.iml" filepath="$PROJECT_DIR$/cohortNine.iml" />
     </modules>
   </component>

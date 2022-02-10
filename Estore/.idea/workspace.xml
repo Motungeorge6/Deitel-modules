@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e43f3ebf-de8a-4363-a10b-ce7b13540059" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterEight/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterEight/FavouriteDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterEight/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterEight/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterEight/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterFive/SmallestInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/chapterTwo/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/homePractice/MaxMinAndRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/homePractice/OddAndEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/homePractice/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/chapterEight/BeverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/chapterEight/HusbandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/AirConditioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/ArrayAssignment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/MyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/Noisemakers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/ScoresArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/ChapterSeven/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/Practice/TwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/chapterFour/Kata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/cohortNine/chapterFour/OddLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/cohortNine/chapterFour/OddLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/test/cohortNine/kata/AirConditionerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/test/cohortNine/kata/AirConditionerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/AirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/ArrayAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/ArrayAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/ChristmasQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/ChristmasQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/MultidimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/MyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/Noisemakers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/Noisemakers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/ScoresArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/ScoresArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ChapterSeven/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/SweetXmas/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Practice/TwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/chapterFour/Kata.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/chapterFour/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/chapterFour/OddLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/chapterFour/OddLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/chapterThree/TargetRateCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/kata/AirConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/kata/AirConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/kata/TargetRateCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/kata/TargetRateCalculatorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24NyQauGDmn4SuwBmM9hXroHUxq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e43f3ebf-de8a-4363-a10b-ce7b13540059" name="Default Changelist" comment="" />
+      <created>1643485324908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643485324908</updated>
+      <workItem from="1643485326704" duration="798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

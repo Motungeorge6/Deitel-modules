@@ -2,7 +2,7 @@ package chapterThree;
 
 public class ClockTest {
     public static void main(String[] args) {
-        Clock clock = new Clock(23,60,56);
-        clock.displayTime();
+        Clock iphone = new Clock(24,60,60);
+        System.out.println(iphone);
     }
 }

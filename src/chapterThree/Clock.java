@@ -1,76 +1,64 @@
 package chapterThree;
-import java.security.PublicKey;
+
 public class Clock {
     private int hour;
-    private int minute;
-    private int second;
-
-    public Clock(int hour, int minute, int second){
-        if (hour > 23){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.hour = hour;
-
-        if (minute > 59){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.minute = minute;
-
-        if (second > 59){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.second = second;
-
-    }
-
-    public void setHour(int hour) {
-        if (hour > 23){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.hour = hour;
-    }
-
-    public void setMinute(int minute) {
-        if (minute > 59){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.minute = minute;
-    }
-
-    public void setSecond(int second) {
-        if (second > 59){
-            hour = 0;
-            minute = 0;
-            second = 0;
-        }
-        this.second = second;
-    }
+    private int minutes;
+    private int seconds;
 
     public int getHour() {
         return hour;
     }
 
-    public int getMinute() {
-        return minute;
+    public void setHour(int hour) {
+        validateHour(hour);
+        this.hour = hour;
     }
 
-    public int getSecond() {
-        return second;
+    public int getMinutes() {
+        return minutes;
     }
 
-    public void displayTime(){
-        System.out.printf("%d : %d : %d",getHour(),getMinute(),getSecond());
-
+    public void setMinutes(int minutes) {
+        validateMinute(minutes);
+        this.minutes = minutes;
     }
+
+    public int getSeconds() {
+        return seconds;
+    }
+
+    public void setSeconds(int seconds) {
+        validateSeconds(seconds);
+        this.seconds = seconds;
+    }
+
+    @Override
+    public String toString() {
+        return "Clock{" +
+                "hour=" + hour +
+                ", minutes=" + minutes +
+                ", seconds=" + seconds +
+                '}';
+    }
+
+    public Clock(int hour, int minutes, int seconds) {
+        validate(hour, minutes, seconds);
+        this.hour = hour;
+        this.minutes = minutes;
+        this.seconds = seconds;
+        }
+
+        public void validate(int hours,int minute,int second){
+            if (hours > 23 || minute > 59 || second > 59) System.out.println("Time not correct");
+    }
+      public void validateHour(int hours){
+        if (hours > 23) System.out.println("Hour is out of range");
+}
+      public void validateMinute(int minutes){
+        if (minutes > 59) System.out.println("Minute is out of range");
 
 }
+public void validateSeconds(int seconds){
+        if (seconds > 59) System.out.println("Seconds is out range");
+}
+    }

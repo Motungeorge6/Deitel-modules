@@ -1,6 +1,4 @@
 package kata;
-import chapterThree.TargetRateCalculator;
-import org.junit.jupiter.api.Test;
 
 public class TargetRateCalculatorTest {
 
